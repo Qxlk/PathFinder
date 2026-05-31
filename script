@@ -10,7 +10,7 @@ while true do
         debounce = true
         local mouseX = mouse.X
         local mouseY = mouse.Y
-        print("Click @ " .. mouseX .. ", " .. mouseY)
+        print("Click" .. mouseX .. ", " .. mouseY)
         local closest = nil
         local closestDist = math.huge
         for _, v in pairs(workspace:GetDescendants()) do
